@@ -40,21 +40,21 @@ aliases:
 
 ## 二、全部内置类型一览
 
-| 类型 | 别名 | 视觉 |
-|---|---|---|
-| `note` | — | 蓝 · 铅笔 |
-| `abstract` | `summary` `tldr` | 青 · 剪贴板 |
-| `info` | — | 蓝 · 信息 |
-| `todo` | — | 蓝 · 复选框 |
-| `tip` | `hint` `important` | 青 · 火焰 |
-| `success` | `check` `done` | 绿 · 对勾 |
-| `question` | `help` `faq` | 黄 · 问号 |
-| `warning` | `caution` `attention` | 橙 · 警告 |
-| `failure` | `fail` `missing` | 红 · 叉 |
-| `danger` | `error` | 红 · 闪电 |
-| `bug` | — | 红 · 虫子 |
-| `example` | — | 紫 · 列表 |
-| `quote` | `cite` | 灰 · 引号 |
+| 类型         | 别名                    | 视觉      |
+| ---------- | --------------------- | ------- |
+| `note`     | —                     | 蓝 · 铅笔  |
+| `abstract` | `summary` `tldr`      | 青 · 剪贴板 |
+| `info`     | —                     | 蓝 · 信息  |
+| `todo`     | —                     | 蓝 · 复选框 |
+| `tip`      | `hint` `important`    | 青 · 火焰  |
+| `success`  | `check` `done`        | 绿 · 对勾  |
+| `question` | `help` `faq`          | 黄 · 问号  |
+| `warning`  | `caution` `attention` | 橙 · 警告  |
+| `failure`  | `fail` `missing`      | 红 · 叉   |
+| `danger`   | `error`               | 红 · 闪电  |
+| `bug`      | —                     | 红 · 虫子  |
+| `example`  | —                     | 紫 · 列表  |
+| `quote`    | `cite`                | 灰 · 引号  |
 
 逐个渲染（实际效果）：
 
