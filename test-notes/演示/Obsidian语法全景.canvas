@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"0a1b2c3d4e5f6001","type":"text","text":"# 🧠 Obsidian 语法全景\n\n点击分支节点，探索各类语法演示笔记。","x":350,"y":250,"width":320,"height":160,"color":"5"},
+		{"id":"0a1b2c3d4e5f6002","type":"file","file":"笔记语法/01-普通Markdown语法.md","x":850,"y":0,"width":260,"height":90,"color":"1"},
+		{"id":"0a1b2c3d4e5f6003","type":"file","file":"笔记语法/02-Mermaid图表.md","x":850,"y":100,"width":260,"height":90,"color":"2"},
+		{"id":"0a1b2c3d4e5f6004","type":"file","file":"笔记语法/03-HTML语法.md","x":850,"y":200,"width":260,"height":90,"color":"3"},
+		{"id":"0a1b2c3d4e5f6005","type":"file","file":"笔记语法/04-链接与反链接.md","x":850,"y":300,"width":260,"height":90,"color":"4"},
+		{"id":"0a1b2c3d4e5f6006","type":"file","file":"笔记语法/05-嵌入Embed.md","x":850,"y":400,"width":260,"height":90,"color":"5"},
+		{"id":"0a1b2c3d4e5f6007","type":"file","file":"笔记语法/06-Callout提示框.md","x":850,"y":500,"width":260,"height":90,"color":"6"},
+		{"id":"0a1b2c3d4e5f6008","type":"file","file":"笔记语法/07-属性与标签.md","x":850,"y":600,"width":260,"height":90,"color":"1"},
+		{"id":"0a1b2c3d4e5f6009","type":"file","file":"笔记语法/08-数学公式与脚注.md","x":850,"y":700,"width":260,"height":90,"color":"2"},
+		{"id":"0a1b2c3d4e5f6010","type":"file","file":"示例/项目Alpha.md","subpath":"#核心目标","x":1250,"y":200,"width":240,"height":80,"color":"3"},
+		{"id":"0a1b2c3d4e5f6011","type":"file","file":"示例/会议记录.md","subpath":"#关键决策","x":1250,"y":300,"width":240,"height":80,"color":"4"},
+		{"id":"0a1b2c3d4e5f6012","type":"link","url":"https://help.obsidian.md/obsidian-flavored-markdown","x":1250,"y":400,"width":240,"height":80,"color":"5"},
+		{"id":"0a1b2c3d4e5f6013","type":"file","file":"演示/项目数据库.base","x":1250,"y":500,"width":240,"height":80,"color":"6"},
+		{"id":"0a1b2c3d4e5f6014","type":"text","text":"**Frontmatter** 与**标签**是聚合的基石。","x":1250,"y":600,"width":240,"height":80,"color":"1"}
+	],
+	"edges":[
+		{"id":"0a1b2c3d4e5f6101","fromNode":"0a1b2c3d4e5f6001","fromSide":"right","toNode":"0a1b2c3d4e5f6002","toSide":"left","label":"基础"},
+		{"id":"0a1b2c3d4e5f6102","fromNode":"0a1b2c3d4e5f6001","fromSide":"right","toNode":"0a1b2c3d4e5f6003","toSide":"left","label":"图表"},
+		{"id":"0a1b2c3d4e5f6103","fromNode":"0a1b2c3d4e5f6001","fromSide":"right","toNode":"0a1b2c3d4e5f6004","toSide":"left","label":"HTML"},
+		{"id":"0a1b2c3d4e5f6104","fromNode":"0a1b2c3d4e5f6001","fromSide":"right","toNode":"0a1b2c3d4e5f6005","toSide":"left","label":"双链"},
+		{"id":"0a1b2c3d4e5f6105","fromNode":"0a1b2c3d4e5f6001","fromSide":"right","toNode":"0a1b2c3d4e5f6006","toSide":"left","label":"嵌入"},
+		{"id":"0a1b2c3d4e5f6106","fromNode":"0a1b2c3d4e5f6001","fromSide":"right","toNode":"0a1b2c3d4e5f6007","toSide":"left","label":"Callout"},
+		{"id":"0a1b2c3d4e5f6107","fromNode":"0a1b2c3d4e5f6001","fromSide":"right","toNode":"0a1b2c3d4e5f6008","toSide":"left","label":"属性"},
+		{"id":"0a1b2c3d4e5f6108","fromNode":"0a1b2c3d4e5f6001","fromSide":"right","toNode":"0a1b2c3d4e5f6009","toSide":"left","label":"公式"},
+		{"id":"0a1b2c3d4e5f6109","fromNode":"0a1b2c3d4e5f6004","fromSide":"right","toNode":"0a1b2c3d4e5f6010","toSide":"left","label":"目标"},
+		{"id":"0a1b2c3d4e5f610a","fromNode":"0a1b2c3d4e5f6005","fromSide":"right","toNode":"0a1b2c3d4e5f6011","toSide":"left","label":"反链演示"},
+		{"id":"0a1b2c3d4e5f610b","fromNode":"0a1b2c3d4e5f6006","fromSide":"right","toNode":"0a1b2c3d4e5f6012","toSide":"left","label":"文档"},
+		{"id":"0a1b2c3d4e5f610c","fromNode":"0a1b2c3d4e5f6007","fromSide":"right","toNode":"0a1b2c3d4e5f6013","toSide":"left","label":"聚合"},
+		{"id":"0a1b2c3d4e5f610d","fromNode":"0a1b2c3d4e5f6008","fromSide":"right","toNode":"0a1b2c3d4e5f6014","toSide":"left","label":"基石"}
+	]
+}

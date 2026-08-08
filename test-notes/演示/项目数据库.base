@@ -1,0 +1,57 @@
+filters:
+  and:
+    - file.hasTag("项目")
+    - file.ext == "md"
+formulas:
+  days_until_due: if(due, (date(due) - today()).days, "")
+  status_label: if(status == "done", "✅ 已完成", if(status == "active", "🟢 进行中", "⏳ 未开始"))
+  priority_label: if(priority == 1, "🔴 高", if(priority == 2, "🟡 中", "🟢 低"))
+properties:
+  status:
+    displayName: 状态
+  due:
+    displayName: 截止日期
+  formula.status_label:
+    displayName: 状态
+  formula.priority_label:
+    displayName: 优先级
+  formula.days_until_due:
+    displayName: 剩余天数
+views:
+  - type: table
+    name: 项目总览
+    order:
+      - file.name
+      - formula.status_label
+      - status
+      - priority
+      - formula.priority_label
+      - due
+      - formula.days_until_due
+    summaries:
+      priority: Average
+  - type: table
+    name: 进行中的项目
+    filters:
+      and:
+        - status == "active"
+    order:
+      - file.name
+      - formula.priority_label
+      - due
+      - formula.days_until_due
+  - type: table
+    name: 已完成项目
+    filters:
+      and:
+        - status == "done"
+    order:
+      - file.name
+      - due
+  - type: cards
+    name: 卡片视图
+    order:
+      - file.name
+      - description
+      - formula.status_label
+      - formula.priority_label
