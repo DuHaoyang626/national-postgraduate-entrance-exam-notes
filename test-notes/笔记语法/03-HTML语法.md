@@ -1,5 +1,5 @@
 ---
-title: 03 - HTML 语法
+title: 03 - HTML语法
 date: 2026-08-03
 tags:
   - obsidian
